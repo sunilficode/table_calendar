@@ -102,6 +102,9 @@ class CalendarStyle {
   /// Defaults to empty BoxDecoration.
   final BoxDecoration decoration;
 
+  /// Outside margin of the whole Calendar.
+  final EdgeInsets headerMargin;
+
   const CalendarStyle({
     this.contentDecoration = const BoxDecoration(),
     this.weekdayStyle = const TextStyle(),
@@ -132,5 +135,6 @@ class CalendarStyle {
     this.highlightSelected = true,
     this.highlightToday = true,
     this.decoration = const BoxDecoration(),
+    this.headerMargin,
   });
 }
