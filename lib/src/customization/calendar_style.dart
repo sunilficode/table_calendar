@@ -105,6 +105,9 @@ class CalendarStyle {
   /// Outside margin of the whole Calendar.
   final EdgeInsets calendarMargin;
 
+  /// Inside padding of the whole Calendar.
+  final EdgeInsets calendarPadding;
+
   const CalendarStyle({
     this.contentDecoration = const BoxDecoration(),
     this.weekdayStyle = const TextStyle(),
@@ -129,12 +132,13 @@ class CalendarStyle {
     this.outsideDaysVisible = true,
     this.renderSelectedFirst = true,
     this.renderDaysOfWeek = true,
-    this.contentPadding = const EdgeInsets.only(bottom: 4.0, left: 8.0, right: 8.0),
+    this.contentPadding = const EdgeInsets.only(bottom: 0.0, left: 0.0, right: 0.0),
     this.cellMargin = const EdgeInsets.all(6.0),
     this.canEventMarkersOverflow = false,
     this.highlightSelected = true,
     this.highlightToday = true,
     this.decoration = const BoxDecoration(),
     this.calendarMargin,
+    this.calendarPadding,
   });
 }
