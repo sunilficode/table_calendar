@@ -98,6 +98,10 @@ class CalendarStyle {
   /// Specifies whether or not Today should be highlighted.
   final bool highlightToday;
 
+  /// Calendar decoration, used to draw border or shadow or change color of the Calendar.
+  /// Defaults to empty BoxDecoration.
+  final BoxDecoration decoration;
+
   const CalendarStyle({
     this.contentDecoration = const BoxDecoration(),
     this.weekdayStyle = const TextStyle(),
@@ -127,5 +131,6 @@ class CalendarStyle {
     this.canEventMarkersOverflow = false,
     this.highlightSelected = true,
     this.highlightToday = true,
+    this.decoration = const BoxDecoration(),
   });
 }
