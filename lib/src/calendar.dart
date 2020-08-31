@@ -479,7 +479,7 @@ class _TableCalendarState extends State<TableCalendar> with SingleTickerProvider
 
     return Container(
       decoration: widget.calendarStyle.decoration,
-      margin: widget.headerStyle.headerMargin,
+      margin: widget.calendarStyle.calendarMargin,
       key: key,
       child: wrappedChild,
     );

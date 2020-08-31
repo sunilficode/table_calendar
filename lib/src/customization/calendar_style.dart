@@ -103,7 +103,7 @@ class CalendarStyle {
   final BoxDecoration decoration;
 
   /// Outside margin of the whole Calendar.
-  final EdgeInsets headerMargin;
+  final EdgeInsets calendarMargin;
 
   const CalendarStyle({
     this.contentDecoration = const BoxDecoration(),
@@ -135,6 +135,6 @@ class CalendarStyle {
     this.highlightSelected = true,
     this.highlightToday = true,
     this.decoration = const BoxDecoration(),
-    this.headerMargin,
+    this.calendarMargin,
   });
 }
