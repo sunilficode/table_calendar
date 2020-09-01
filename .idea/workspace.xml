@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/calendar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/calendar.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/customization/calendar_style.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/customization/calendar_style.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/widgets/cell_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/cell_widget.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,5 +39,15 @@
       <updated>1598868737765</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1240" height="700" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1598938819652">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1440.900@0.0.1440.900" timestamp="1598938819652" />
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1598938282255">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1598938282255" />
   </component>
 </project>

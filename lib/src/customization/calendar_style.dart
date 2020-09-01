@@ -108,6 +108,10 @@ class CalendarStyle {
   /// Inside padding of the whole Calendar.
   final EdgeInsets calendarPadding;
 
+  /// Padding of Cells' decoration.
+  final EdgeInsets cellPadding;
+
+
   const CalendarStyle({
     this.contentDecoration = const BoxDecoration(),
     this.weekdayStyle = const TextStyle(),
@@ -140,5 +144,6 @@ class CalendarStyle {
     this.decoration = const BoxDecoration(),
     this.calendarMargin,
     this.calendarPadding,
+    this.cellPadding,
   });
 }
